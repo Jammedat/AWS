@@ -1,0 +1,1 @@
+Create an IAM policy named iampolicy_john in us-east-1 region, it must allow read-only access to the EC2 console, i.e this policy must allow users to view all instances, AMIs, and snapshots in the Amazon EC2 console.

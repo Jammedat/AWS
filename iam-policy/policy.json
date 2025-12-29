@@ -1,0 +1,22 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "Statement1",
+			"Effect": "Allow",
+			"Action": [
+				"ec2:Describe*",
+                "ec2:DescribeInstanceImageMetadata",
+                "ec2:Get*",
+                "ec2:ListImagesInRecycleBin",
+                "ec2:ListSnapshotsInRecycleBin",
+                "ec2:SearchLocalGatewayRoutes",
+                "ec2:SearchTransitGatewayRoutes",
+                "ec2messages:Get*"
+                ],
+			"Resource": [
+				"*"
+			]
+		}
+	]
+}
